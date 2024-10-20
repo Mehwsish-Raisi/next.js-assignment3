@@ -1,12 +1,10 @@
 import React from 'react'
-import Image from "next/image"
+
 
 const HeroPage = () => {
   return (
     <section id="Header"  className="p-8 md:p-16 ">
-     <center>
-      <Image src={require("../../../public/profile.png")} alt="My Profile Pic" className="self-center rounded-full"/>
-      </center>
+     
 
       <div className='container mx-auto text-center p-6 rounded-lg shadow-lg border-4 bg-slate-200 border-slate-100 max-w-4xl mt-8'>
       <h1 className='text-2xl md:text-3xl font-bold mb-6 text-pink-800'>This is  a Hero Section</h1>
