@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from "next/link"
+
 
 const Portfolio = () => {
   return (
@@ -11,7 +11,7 @@ const Portfolio = () => {
         <h1 className='text-2xl md:text-3xl font-bold mb-6 text-pink-800'>My Portfolio</h1>
         
         <p className='text-lg max-w-3xl md:text-xl mx-auto mb-8'>
-        Here are my some projects... Bringing ideas to life with TypeScript, Next.js, and Tailwind CSS – Explore my latest web development projects and see innovation in action!
+        Here are my some projects... Bringing ideas to life with TypeScript, Next.js, and Tailwind CSS, Explore my latest web development projects and see innovation in action!
         </p>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
           <div className='bg-slate-400 p-6 shadow-lg rounded-lg transition hover:bg-indigo-50 transform hover:scale-105'>
